@@ -1,0 +1,118 @@
+header{
+  background-image: url('../img/bg_hero1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  max-height: 737px;
+  min-height: 600px;
+}
+.hero{
+  background-position: center;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+.navbar-expand-lg{
+  background-color: #660066;
+}
+
+.display-1{
+  padding-top: 340px;
+}
+
+.display-2 {
+  padding-bottom: 40px;
+}
+
+
+.linea_banner{
+  width: 70%;
+  background-color: black;
+}
+
+.title_description {
+  line-height: 2;
+}
+
+.linea_negra{
+  width: 15%;
+  background-color: black;
+  height: 2px;
+}
+
+h2{
+  font-size: 49px;
+  font-weight: 700;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.icon_container {
+  text-align: center;
+}
+
+.experience_section{
+  padding: 45px;
+}
+
+.list-group{
+  display: inline;
+}
+
+.container-fluid{
+  background-color: #660066;
+}
+
+.linea_blanca{
+  background-color: white;
+  width: 15%;
+  height: 2px;
+  margin-bottom: 5%;
+}
+
+.cards_container{
+  margin-left: 8%;
+}
+
+.nombre-footer{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+footer{
+  background-color: #660066;
+  padding: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .bio{
+    display: none;
+  }
+
+  footer {
+    padding: 50px 20px;
+  }
+
+  h2 {
+    font-size: 35px;
+    font-style:
+  }
+
+  .cards_container {
+    margin-left: 0;
+  }
+
+  .card {
+    margin-left: 5% !important;
+  }
+
+  .display-1, .display-2 {
+    font-size: 40px;
+  }
+
+}
